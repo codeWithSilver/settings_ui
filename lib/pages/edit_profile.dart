@@ -1,3 +1,7 @@
+// ignore_for_file: deprecated_member_use
+
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:settings_ui/pages/settings.dart';
 
@@ -81,7 +85,7 @@ class _EditProfilePageState extends State<EditProfilePage> {
                           image: DecorationImage(
                               fit: BoxFit.cover,
                               image: NetworkImage(
-                                "https://images.pexels.com/photos/3307758/pexels-photo-3307758.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250",
+                                "https://avatars.githubusercontent.com/u/30352069?s=400&u=591166d3cfcef66305d3d3f4a3b2e52249ad3a8b&v=4",
                               ))),
                     ),
                     Positioned(
@@ -109,12 +113,13 @@ class _EditProfilePageState extends State<EditProfilePage> {
               SizedBox(
                 height: 35,
               ),
-              buildTextField("Full Name", "Dor Alex", false),
-              buildTextField("E-mail", "alexd@gmail.com", false),
+              buildTextField("Full Name", "Erick Mwita", false),
+              buildTextField("E-mail", "erick@mwita.com", false),
               buildTextField("Password", "********", true),
-              buildTextField("Location", "TLV, Israel", false),
+              buildTextField("Location", "KHC, Kenya", false),
               SizedBox(
                 height: 35,
+                  // ignore: deprecated_member_use
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
